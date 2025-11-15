@@ -1,8 +1,8 @@
-# \# Proyecto Final – Introducción a la Inteligencia Artificial
+Proyecto Final – Introducción a la Inteligencia Artificial
 
-# \### Sistema Multiagente con Embeddings, Base Vectorial y Recuperación de Información (Mini-RAG)
+Sistema Multiagente con Embeddings, Base Vectorial y Recuperación de Información (Mini-RAG)
 
-# 
+ 
 
 # Este proyecto implementa un \*\*asistente inteligente multiagente\*\* capaz de:
 
