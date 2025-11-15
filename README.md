@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://svg-banners.vercel.app/api?type=origin&text=Proyecto%20IA%20Multiagente&width=1000&height=200" alt="Banner">
+</p>
+
 📘 Proyecto Final – Introducción a la Inteligencia Artificial
 Sistema Multiagente con Embeddings, Base Vectorial y Recuperación de Información (Mini-RAG)
 
