@@ -1,96 +1,155 @@
-Proyecto Final – Introducción a la Inteligencia Artificial
-
+📘 Proyecto Final – Introducción a la Inteligencia Artificial
 Sistema Multiagente con Embeddings, Base Vectorial y Recuperación de Información (Mini-RAG)
 
- 
+Este proyecto implementa un asistente inteligente multiagente capaz de:
 
-# Este proyecto implementa un \*\*asistente inteligente multiagente\*\* capaz de:
+Extraer texto de documentos (TXT, PDF o imágenes con OCR)
 
-# 
+Dividir el contenido en chunks
 
-# \- Extraer texto de documentos (TXT, PDF o imágenes con OCR)
+Generar embeddings semánticos
 
-# \- Dividir el contenido en chunks
+Guardarlos en una base de datos vectorial simple
 
-# \- Generar embeddings semánticos
+Recuperar información mediante similitud (coseno / euclidiana)
 
-# \- Guardarlos en una base de datos vectorial simple
+Coordinar agentes usando LangChain
 
-# \- Recuperar información mediante similitud (coseno / euclidiana)
+Producir respuestas en lenguaje natural basadas en los documentos cargados
 
-# \- Coordinar agentes usando LangChain
+Este trabajo corresponde al Proyecto Final del curso Introducción a la IA.
 
-# \- Producir respuestas en lenguaje natural basadas en los documentos cargados
+👨‍🏫 Autores
 
-# 
+Juan Esteban Aguirre
 
-# Este trabajo corresponde al \*\*Proyecto Final del curso Introducción a la IA\*\*.
+Sebastián Mogollón
 
-# 
+🚀 Tecnologías utilizadas
 
-# ---
+Python 3.10+
 
-# 
+LangChain
 
-# \## 👨‍🏫 Autores
+FAISS o listas en memoria
 
-# 
+OCR (Tesseract) opcional
 
-# \- \*\*Juan Esteban Aguirre\*\*
+OpenAI o HuggingFace Embeddings
 
-# \- \*\*Sebastián Mogollón\*\*
+NumPy / Pandas
 
-# 
+Streamlit (interfaz)
 
-# ---
+PyPDF2 para PDF
 
-# 
+Pillow para manejo de imágenes
 
-# \## 🚀 Tecnologías utilizadas
+📦 Instalación
 
-# 
+Clona el repositorio:
 
-# \- \*\*Python 3.10+\*\*
-
-# \- LangChain
-
-# \- FAISS o listas en memoria
-
-# \- OCR (Tesseract) opcional
-
-# \- OpenAI o HuggingFace Embeddings
-
-# \- NumPy / Pandas
-
-# \- Streamlit (interfaz)
-
-# \- PyPDF2 para PDF
-
-# \- Pillow para manejo de imágenes
-
-# 
-
-# ---
-
-# 
-
-# \## 📦 Instalación
-
-# 
-
-# Clona el repositorio:
-
-# 
-
-# ```bash
-
-# git clone https://github.com/devsebas22/proyecto-ia-multiagente.git
-
-# cd proyecto-ia-multiagente
+git clone https://github.com/devsebas22/proyecto-ia-multiagente.git
+cd proyecto-ia-multiagente
 
 
+Instala dependencias:
 
-git status
+pip install -r requirements.txt
+
+▶️ Ejecución del proyecto
+streamlit run src/app.py
 
 
+Esto abrirá una interfaz donde puedes:
 
+Subir documentos
+
+Procesarlos
+
+Consultarlos con lenguaje natural
+
+Ver los fragmentos recuperados más relevantes
+
+🧠 Arquitectura del sistema (Multiagente)
+
+El proyecto utiliza tres agentes principales:
+
+🔹 1. Agente de Extracción
+
+Lee archivos
+
+Realiza OCR si se requiere
+
+Devuelve texto limpio
+
+🔹 2. Agente de Análisis
+
+Realiza chunking
+
+Genera embeddings
+
+Inserta vectores en la base
+
+Recupera los fragmentos más similares
+
+🔹 3. Agente de Respuesta
+
+Recibe los fragmentos recuperados
+
+Produce una respuesta clara y contextualizada
+
+📂 Estructura del repositorio
+proyecto-ia-multiagente/
+│── data/
+│   ├── ejemplos/
+│   └── resultados/
+│
+│── src/
+│   ├── agentes/
+│   │   ├── agente_extraccion.py
+│   │   ├── agente_analisis.py
+│   │   └── agente_respuesta.py
+│   ├── app.py
+│   ├── chunking.py
+│   ├── extraccion.py
+│   ├── embeddings.py
+│   ├── similitud.py
+│   ├── vectores.py
+│   ├── utils.py
+│
+│── docs/
+│   └── Documento_Tecnico.md
+│
+│── requirements.txt
+│── README.md
+
+📝 Documento Técnico
+
+El documento técnico completo está en:
+
+docs/Documento_Tecnico.md
+
+
+Incluye:
+
+Introducción
+
+Problema a resolver
+
+Metodología
+
+Arquitectura
+
+Resultados
+
+Trabajo futuro
+
+📌 Notas finales
+
+Este proyecto es un prototipo educativo, diseñado para demostrar la implementación práctica de un sistema RAG (Retrieval Augmented Generation) usando herramientas modernas, manteniendo claridad y modularidad.
+
+📬 Contacto
+
+Si deseas colaborar o reportar errores:
+👉 Crea un Issue en este repositorio.
