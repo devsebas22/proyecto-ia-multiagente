@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=origin&text=Proyecto%20IA%20Multiagente&width=1000&height=200" alt="Banner">
+  <img src="https://svg-banners.vercel.app/api?type=origin&text1=Proyecto%20IA%20Multiagente&text2=Juan%20Esteban%20y%20Sebasti%C3%A1n&width=1000&height=250" alt="Proyecto IA Multiagente">
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
