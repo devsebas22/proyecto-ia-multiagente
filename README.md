@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=origin&text1=VioletStore&text2=Clean%20Beauty&width=1000&height=250" alt="VioletStore">
+  <img width="527" height="397" alt="image" src="https://github.com/user-attachments/assets/269c78f6-7701-4767-8882-d306bd9c374d" />
 </p>
 
 <p align="center">
